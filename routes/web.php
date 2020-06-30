@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index');
-Route::get('/form','AuthController@register' );
+Route::get('/register','AuthController@register' );
 Route::post('/store','AuthController@store' );
 Route::get('/welcome','AuthController@welcome' );
